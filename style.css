@@ -1,0 +1,217 @@
+*{
+    padding: 0 0 0 ;
+    margin:0 0 0 0;
+    max-width: 100%;
+}
+.animate{
+ animation-timeline: view();
+}
+.feature{
+  margin-left: 3rem;
+  padding-left: 1.5rem;
+  font-size:1.5rem;
+  margin-right:3rem;
+  padding-right: 1.5rem;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+
+}
+.featurette-head{
+  font-weight: 750;
+  font-family: Arial, Helvetica, sans-serif;
+} 
+.featurette-divider {
+    margin: 9rem ; /* Space out the Bootstrap <hr> more */
+  }
+.display-4{
+  text-align: center;
+  padding-bottom: 0.5rem;
+  padding-top: 2rem;
+  font-weight: 600;
+
+}
+.pass{
+  text-align: center;
+  font-weight: 400;
+}
+.cl{
+  padding-top:5%;
+  font-weight: 500;
+}
+.logos-slide{
+    white-space: nowrap;
+    animation: 15s slide infinite linear;
+    display: inline-block;
+    max-width: none;
+}
+
+.logos-slide img{
+    height: 50px;
+    max-width: none;
+    margin: 0 40px;
+}
+
+.logos{
+ overflow: hidden;
+ padding: 60px 0;
+ background-color: white ;
+ white-space: nowrap;
+ position: relative;
+
+}
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }   
+}
+.logos:hover .logos-slide{
+    animation-play-state: paused;
+}
+.logos:before, .logos:after{
+position:absolute;
+    top: 0;
+    width: 250px;
+    height:100%;
+    content:"";
+    z-index: 2;
+}
+.logos:before{
+    left:0;
+    background: linear-gradient(to left, rgba(255,255,255,0),white );
+}
+
+.logos:after{
+    right:0;
+    background: linear-gradient(to right, rgba(255,255,255,0),white );
+}
+.c1{
+
+  justify-items: center;
+  align-items: center;
+
+}
+.bgg{
+    background-image: url("/porsche-service-repair-expertise.jpg ");
+    background-repeat: no-repeat;
+    background-size:cover;  
+    background-position: center;  
+    position: relative;
+    isolation: isolate;
+    height: 600px; 
+    width: 100%;
+}
+.bgg::after{
+  content: '';
+  position: absolute;
+  background-color:rgba(0, 0, 0, 0.891);
+  inset:0;
+  z-index:-1;
+  opacity: .5;
+}
+.pd{
+  padding-top: 5rem;
+}
+.ct{
+  padding-left:1rem;
+  font-weight: 490;
+  line-height: 30px;
+}
+.nb{
+  padding-left: 3rem;
+  background-color: white;
+}
+.nl{
+  padding-block: 0.5rem;
+  font-size: larger;
+
+}
+.ni{
+  font-weight: 500;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+}
+.nav-link{
+    color: #dc3545; 
+}
+.c{ 
+   align-items: end;
+  align-content: end;
+  object-position: right;
+  padding-left:25rem;
+  visibility: hidden;
+}
+.ctt{
+  padding:0 0 0 0 ;
+  max-width:100% ;
+  background-color: black;
+  color: white;
+  padding-left: 1rem;
+}
+.clr{
+  color:white;
+}
+.clh{
+  color: #dc3545;
+}
+.copyright{
+  padding-left: 1rem;
+  font-size: larger;
+  padding-top: 1.5rem;
+}
+.nv{
+padding-left: 1rem;
+}
+.vs{
+visibility: hidden;
+}
+.card-body h2{
+  padding-bottom: 1rem;
+}
+.cb{
+  height: 400px;
+}
+.wh{
+  color: white;
+}
+.bgb{
+  background-color: white;
+}
+.rd{
+  color: #dc3545;
+}
+.ld{
+  padding-top: 0;
+  margin-top: 0;
+}
+.ib{
+  background-color: white;
+}
+.lp{
+  font-weight: 300;
+  font-size: xx-large;
+}
+.pp{
+  font-size:larger; 
+}
+.ctd{
+  font-size: x-large;
+  font-weight:700;
+}
+.nil{
+  padding-top: 10px;
+}
+.svj{
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  height: 60px;
+  width: 60px;
+}
+.nbb{
+  color:#dc3545;
+  font-size: x-large;
+  font-weight: 600;
+}
