@@ -94,7 +94,7 @@ position:absolute;
 
 }
 .bgg{
-    background-image: url("/porsche-service-repair-expertise.jpg ");
+    background-image: url("porsche-service-repair-expertise.jpg ");
     background-repeat: no-repeat;
     background-size:cover;  
     background-position: center;  
